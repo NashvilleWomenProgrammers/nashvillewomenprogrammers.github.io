@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-image: url('images/contemporary_china_2.png');
+    background-image: url('../images/contemporary_china_2.png');
     background-repeat: repeat;
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -18,4 +18,22 @@ h1 {
 
 img {
   max-width: 100%;
+}
+
+section.sidebar {
+  width: 33%;
+  float: right;
+}
+
+article {
+  width: 66%;
+}
+
+section#content:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
 }
