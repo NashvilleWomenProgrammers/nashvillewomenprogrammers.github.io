@@ -1,0 +1,22 @@
+{
+  "name": "nwp-site-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NashvilleWomenProgrammers/nwp-site-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NashvilleWomenProgrammers/nwp-site-v2/issues"
+  },
+  "homepage": "https://github.com/NashvilleWomenProgrammers/nwp-site-v2#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.5"
+  }
+}
