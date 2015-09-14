@@ -10,6 +10,7 @@ section#content {
   background-color: rgba(105,162,226,0.3);
   margin: 0 2em;
   padding: 2em;
+  position: relative;
 }
 
 h1 {
@@ -36,4 +37,11 @@ section#content:after {
      content: " ";
      clear: both;
      height: 0;
+}
+
+#back-to-top-btn {
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    color: blue;
 }
