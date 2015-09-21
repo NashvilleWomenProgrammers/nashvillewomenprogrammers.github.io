@@ -1,47 +1,48 @@
 body {
-    text-align: center;
-    background-image: url('../images/contemporary_china_2.png');
-    background-repeat: repeat;
-    font-family: 'Lato', sans-serif;
-    margin: 0;
+	text-align: center;
+	background-image: url('../images/contemporary_china_2.png');
+	background-repeat: repeat;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
 }
 
-section#content {
-  background-color: rgba(105,162,226,0.3);
-  margin: 0 2em;
-  padding: 2em;
-  position: relative;
+section #content {
+	background-color: rgba(105,162,226,0.3);
+	margin: 0 2em;
+	padding: 2em;
+	position: relative;
 }
 
 h1 {
-  margin: 0;
+	margin: 0;
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
-section.sidebar {
-  width: 33%;
-  float: right;
-}
+/* Removing Meetup sidebar for now */
+/*section .sidebar {
+	width: 33%;
+	float: right;
+}*/
 
 article {
-  width: 66%;
+	width: 66%;
 }
 
-section#content:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
+section #content:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;	
+	height: 0;
 }
 
 #back-to-top-btn {
-    position: relative;
-    bottom: 10px;
-    left: 0;
-    color: blue;
+	position: relative;
+	bottom: 10px;
+	left: 0;
+	color: blue;
 }
