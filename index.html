@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/ideal-image-slider.css">
+    <link rel="stylesheet" href="styles/iis-default-theme.css">
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic' rel='stylesheet' type='text/css'>
@@ -90,15 +91,13 @@
 
   <section id="content">
     <section id="slider">
-      <!-- TODO: Adjust CSS so that the taller images don't slide things down. -->
       <!-- TODO: Add navigation for the slides. -->
       <!-- TODO: Add alts for these images -->
-      <img src="images/nwp2-cropped.jpg" alt="Slide 1" />
       <img data-src="images/nwp19.jpg" src="" alt="" />
       <img data-src="images/nwp7-cropped.jpg" src="" alt="" />
       <img data-src="images/nwp1.jpg" src="" alt="" />
       <img data-src="images/nwp3-cropped.jpg" src="" alt="" />
-      <img data-src="images/nwp4.jpg" src="" alt="" />
+      <img data-src="images/nwp4-cropped.jpg" src="" alt="" />
       <img data-src="images/nwp8.jpg" src="" alt="" />
       <img data-src="images/nwp9.jpg" src="" alt="" />
       <img data-src="images/nwp10.jpg" src="" alt="" />
@@ -109,11 +108,9 @@
       <img data-src="images/nwp15.jpg" src="" alt="" />
       <img data-src="images/nwp16.jpg" src="" alt="" />
       <img data-src="images/nwp17.jpg" src="" alt="" />
-      <img data-src="images/nwp18.jpg" src="" alt="" />
-      <img data-src="images/nwp20-cropped.jpg" src="" alt="" />
+      <img data-src="images/nwp18-cropped.jpg" src="" alt="" />
+      <img data-src="images/nwp20.jpg" src="" alt="" />
     </section>
-
-
     <section id="who-we-are">
       <h2>
         Who We Are
@@ -169,8 +166,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="js/ideal-image-slider.min.js"></script>
+  <script src="js/iis-bullet-nav.js"></script>
   <script>
-    var slider = new IdealImageSlider.Slider('#slider');
+    var slider = new IdealImageSlider.Slider({
+      selector: '#slider',
+      height: 450
+    });
+    slider.addBulletNav();
     slider.start();
   </script>
   </body>

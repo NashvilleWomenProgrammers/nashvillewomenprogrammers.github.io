@@ -5,6 +5,10 @@ body {
 	margin: 0;
 }
 
+a[role=tabpanel] {
+	background-size: contain;
+}
+
 nav.navbar {
 	margin-bottom: 0;
 	position: fixed;
