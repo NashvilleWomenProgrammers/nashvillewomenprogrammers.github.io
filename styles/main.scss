@@ -1,0 +1,47 @@
+/********************
+Main Styles
+********************/
+
+body {
+  background-repeat: repeat;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+a[role=tabpanel] {
+  background-size: contain;
+}
+
+nav.navbar {
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header {
+  background-color: #b84d45;
+  background-image: url(../images/bg-transparent-squares.png);
+  color: rgba(255,255,255,.8);
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+section#content {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+section#content > section {
+  padding-bottom: 1em;
+}
+
+section#content > section + section {
+  border-top: 1px solid #b84d45;
+}
+
+img {
+  max-width: 100%;
+}
