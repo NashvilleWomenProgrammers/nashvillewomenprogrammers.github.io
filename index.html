@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/ideal-image-slider.css">
+    <link rel="stylesheet" href="styles/iis-default-theme.css">
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic' rel='stylesheet' type='text/css'>
@@ -21,57 +22,52 @@
   </head>
 
   <body>
-  <header id="top">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Nashville Women Programmers</a>
-        </div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Nashville Women Programmers</a>
+      </div>
 
-        <!-- TODO: Smooth scrolling on navbar links -->
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#who-we-are">
-                Who We Are
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li>
-              <a href="#next-meeting">
-                Meeting Info
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li>
-              <a href="#our-projects">
-                Our Projects
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li>
-              <a href="#resources">
-                Resources
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li>
-              <a href="http://www.meetup.com/NashvilleWomenProgrammers/" target="blank">
-                Next Meeting Info
-              </a>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+      <!-- TODO: Smooth scrolling on navbar links -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#who-we-are">
+              Who We Are
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#next-meeting">
+              Meeting Info
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects">
+              Our Projects
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#resources">
+              Resources
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <header id="top">
     <h1>
       Nashville Women Programmers
     </h1>
@@ -79,26 +75,27 @@
       Bringing like-minded women together
     </h2>
     <p>
-      The group is open to <strong>all</strong>, regardless of age, gender, experience level, and background.
+      We host meetings on the second Monday of each month. Come to code, learn, teach, meet like-minded people, and have fun!
     </p>
     <p>
       <a class="btn btn-lg btn-primary" href="http://www.meetup.com/NashvilleWomenProgrammers/" role="button">
         Join Us Today!
       </a>
     </p>
+    <p>
+      The group is open to <strong>all</strong>, regardless of age, gender, experience level, and background.
+    </p>
   </header>
 
   <section id="content">
     <section id="slider">
-      <!-- TODO: Adjust CSS so that the taller images don't slide things down. -->
       <!-- TODO: Add navigation for the slides. -->
       <!-- TODO: Add alts for these images -->
-      <img src="images/nwp2-cropped.jpg" alt="Slide 1" />
       <img data-src="images/nwp19.jpg" src="" alt="" />
       <img data-src="images/nwp7-cropped.jpg" src="" alt="" />
       <img data-src="images/nwp1.jpg" src="" alt="" />
       <img data-src="images/nwp3-cropped.jpg" src="" alt="" />
-      <img data-src="images/nwp4.jpg" src="" alt="" />
+      <img data-src="images/nwp4-cropped.jpg" src="" alt="" />
       <img data-src="images/nwp8.jpg" src="" alt="" />
       <img data-src="images/nwp9.jpg" src="" alt="" />
       <img data-src="images/nwp10.jpg" src="" alt="" />
@@ -109,11 +106,9 @@
       <img data-src="images/nwp15.jpg" src="" alt="" />
       <img data-src="images/nwp16.jpg" src="" alt="" />
       <img data-src="images/nwp17.jpg" src="" alt="" />
-      <img data-src="images/nwp18.jpg" src="" alt="" />
-      <img data-src="images/nwp20-cropped.jpg" src="" alt="" />
+      <img data-src="images/nwp18-cropped.jpg" src="" alt="" />
+      <img data-src="images/nwp20.jpg" src="" alt="" />
     </section>
-
-
     <section id="who-we-are">
       <h2>
         Who We Are
@@ -125,52 +120,224 @@
         We embrace the <a href="http://www.lambdajam.com/policies/">Lambda Jam Conference Diversity Policy</a> and welcome people of any gender identity or expression, race, ethnicity, size, nationality, sexual orientation, ability level, neurotype, religion, elder status, family structure, culture, subculture, political opinion, identity, and self-identification.
       </p>
       <p>
-        Meetups are held on the second and fourth Monday each month. Come to code, learn, meet like-minded people, and have fun!
+        This group is hosted by women programmers with the goal to build a welcoming environment to learn and to grow diversity in the programming field.
+      </p>
+      <p>
+        We have three main goals:
+      </p>
+      <ol>
+        <li>
+          Connect women programmers and supporters so that we can have friends with whom to attend other programming events in town.
+        </li>
+        <li>
+          Facilitate discovery and learning of new tech subjects from a speaker who has spent time studying, compiling, and translating information so a beginner to that topic can understand.
+        </li>
+        <li>
+          Provide an encouraging space where people can gain speaking experience, and hopefully go on to speak at local user groups, conferences, etc… thus increasing minority visibility and inspiring other underrepresented people in tech.
+        </li>
+      </ol>
+      <p>
+        Meetups are held on the second Monday each month. Come to code, learn, meet like-minded people, and have fun!
       </p>
     </section>
 
     <section id="next-meeting">
-      <h2>General Meeting Info</h2>
-      <!-- TODO: Content -->
-      <h3>Next Meeting Information</h3>
-      <section id="meetup-widget">
-        <iframe width="225" height="570" src="http://meetu.ps/2KyWvT" frameborder="0"></iframe>
+      <h2>Meeting Info</h2>
+      <p>We meet on the second Monday of each month at Eventbrite Nashville, which is located in Cummins Station at 209 Tenth Avenue South, Suite 204, Nashville, TN 37217.  Detailed directions and parking options are detailed below.</p>
+      <p>To confirm the next meeting time, and to RSVP, please visit our page on <a href="http://www.meetup.com/NashvilleWomenProgrammers">Meetup.com</a></p>
+      <section class="row">
+        <section class="col-md-4 col-sm-6">
+          <h3>Next Meeting Information</h3>
+          <iframe width="225" height="450" src="http://meetu.ps/2KyWvT" frameborder="0"></iframe>
+        </section>
+        <section class="col-md-8 col-sm-6">
+          <h3>Meeting Agenda</h3>
+          <ul>
+            <li>5:30-6:30 – Arrive, socialize, hack, eat</li>
+            <li>6:30-7:30 – Lecture</li>
+            <li>7:30-8:00 – Wrap-up</li>
+          </ul>
+          <h3>What to Bring</h3>
+          <ul>
+            <li>A laptop, tablet, smartphone, or pen/paper if you would like. None of these are required though.</li>
+            <li>Questions on any tech topics or careers in tech.</li>
+            <li>Any guests who are also interested in learning to code and/or increasing diverse participation in tech.</li>
+            <li>Our meeting overlaps with dinner. Feel free to bring a packed meal or pick up something on the way there.</li>
+          </ul>
+          <h3>What to Expect</h3>
+          <ul>
+            <li>Free to attend.</li>
+            <li>Free internet.</li>
+            <li>Our group has adopted the <a href="https://www.recurse.com/manual#sec-environment">Hacker School Social Rules</a>. We seek to provide an environment of encouragement, openness, and support so all who attend can feel comfortable, welcome, and free to ask questions and grow.</li>
+          </ul>
+        </section>
       </section>
-      <h3>Partners/Sponsors</h3>
-      <!-- TODO: Content -->
+      <section class="row">
+        <section class="col-sm-12">
+          <h3>Partners/Sponsors</h3>
+          <ul class="list-inline" id="sponsors">
+            <li>
+              <img src="images/eventbritelogo.jpeg" alt="Eventbrite Logo" />
+              <h4>
+                <a href="https://www.eventbrite.com/team/">
+                  EventBrite Nashville
+                </a>
+              </h4>
+              <p>Thanks to Eventbrite for providing space to host our group!</p>
+            </li>
+            <li>
+              <img src="images/ebslogo.jpeg" alt="Eliza Brock Software Logo" />
+              <h4>
+                <a href="http://www.elizabrocksoftware.com/">
+                  Eliza Brock Software
+                </a>
+              </h4>
+              <p>EBS generously covers our dues, and was our original meeting space.</p>
+            </li>
+            <li>
+              <img src="images/nsslogo.jpeg" alt="Nashville Software School Logo" />
+              <h4>
+                <a href="http://nashvillesoftwareschool.com">
+                  Nashville Software School
+                </a>
+              </h4>
+              <p>Thanks to NSS for providing space to host our group from 2013-2014.</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="row">
+        <section class="col-md-6">
+          <h3>Meeting Location</h3>
+          <p>
+            <a href="https://goo.gl/maps/MnnYhFHMacT2">
+              Eventbrite Nashville<br />
+              Cummins Station<br />
+              209 Tenth Avenue South<br />
+              Suite 204<br />
+              Nashville, TN 37217
+            </a>
+          </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.481218462248!2d-86.7846407847282!3d36.15484288008651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864668aad5c7eaf%3A0x477cf0d83a5b8192!2sEventbrite!5e0!3m2!1sen!2sus!4v1447600058265" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+        <section class="col-md-6">
+          <h3>Getting into the Eventbrite Office</h3>
+          <p>To get into the Eventbrite offices, use the South Lobby entrance by the Cinco de Mayo restaurant (pictured here). The Eventbrite office will be straight ahead.</p>
+          <!-- TODO: An image of the entrance to the Eventbrite office. -->
+          <p>Enter the double doors and we will greet you at the front desk, sign you in via iPad, and show you where to go from there.</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1447600440747!6m8!1m7!1sAKLGOrY6kQhzIg4-lHKhdw!2m2!1d36.15471706876665!2d-86.78190289510239!3f211.87794848317068!4f4.187805627884032!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+      </section>
+      <section class="row">
+        <section class="col-sm-12">
+          <h3>Parking</h3>
+          <p>
+            There are many parking options near Cummins Station, ranging from free to pricey. We have listed the options starting with the cheapest options.
+          </p>
+          <ul>
+            <li>
+              <h4>Free Bike Parking</h4>
+              <p>Free bike parking is available in front of Cummins Station. Don't forget your bike lock and reflectors for riding home at night!</p>
+            </li>
+            <li>
+              <h4>Less Than $1 or Free Street Parking</h4>
+              <p>All of the parallel parking spaces along the front of Cummins Station (and the nearby streets) are <a href="http://www.parkitdowntown.com/parking/on-street-parking">free after 6pm</a>. A few of these spots are reserved for valet in the evenings, so if you see a valet sign, park elsewhere.</p>
+              <p>If you arrive earlier than 6pm, put in just enough exact change to cover you until the spots turn free at 6PM.</p>
+            </li>
+            <li>
+              <h4>Paid Lot Parking - Further, But Less Expensive</h4>
+              <p>The Frist parking lot, across the street from Cummins Station, is the cheapest paid parking option.</p>
+              <p>Rates: $1.50 first 1/2 hour; $6 first hour; $3 each additional hour; $24 daily max; Special events pricing as posted.</p>
+              <p>Note: this parking lot is on the north side of Cummins Station, and Eventbrite is on the south side.  However, you can enter Cummins Station from the North and walk through the inside of the building to get to the Eventbrite office.</p>
+              <p>More info on The First parking lot: <a href="http://www.parkitdowntown.com/nashville/frist-lot-ii">http://www.parkitdowntown.com/nashville/frist-lot-ii</a></p>
+            </li>
+            <li>
+              <h4>Paid Lot Parking - Closer, But More Expensive</h4>
+              <p>Two paid parking lots are available directly across from Cummins Station. Last time we inquired, the rates was $6/hour after 5PM, with a maximum evening cost of $12, unless there is a special event pricing in effect.</p>
+              <p>If you eat in a restaurant in Cummins Station, you can get your parking validated, which reduces the cost to free in many cases.</p>
+              <p>Details on the 209 10th Ave South parking lot: <a href="http://www.parkitdowntown.com/nashville/cummins-station">http://www.parkitdowntown.com/nashville/cummins-station</a></p>
+              <p>Details on the 308 10th Ave South parking lot: <a href="http://www.parkitdowntown.com/nashville/308-10th-ave-s">http://www.parkitdowntown.com/nashville/308-10th-ave-s</a></p>
+            </li>
+          </ul>
+        </section>
+      </section>
     </section>
 
     <section id="projects">
       <h2>Our Projects</h2>
-      <!-- TODO: Content -->
+      <!-- TODO: Full Content -->
+      <p> Our recent projects include this website, the Javascript Koans, the Ruby Koans, and more.</p>
     </section>
 
     <section id="resources">
       <h2>Resources</h2>
       <h3>Resources for Beginners</h3>
-      <!-- TODO: Content -->
+      <p>If you've always wanted to learn to program or are just a little bit curious, we'd be happy to help you learn as you work through the programming tutorial of your choice (or we can suggest one based on what you'd like to learn).</p>
+      <p>Suggestions of places you could start:</p>
+      <!-- TODO: Resources that aren't so Ruby-centric -->
+      <ul>
+        <li>
+          <a href="http://www.html5rocks.com/en/">HTML 5 Rocks</a>
+        </li>
+        <li>
+          <a href="https://github.com/mrdavidlaing/javascript-koans">Javascript Koans</a>
+        </li>
+        <li>
+          <a href="http://tryruby.org/levels/1/challenges/0">Try Ruby</a>
+        </li>
+        <li>
+          <a href="http://rubykoans.com/">Ruby Koans</a>
+        </li>
+        <li>
+          <a href="http://railsforzombies.org/">Rails for Zombies</a>
+        </li>
+      </ul>
       <h3>Other Local Groups</h3>
-      <!-- TODO: Content -->
+      <!-- TODO: Make sure we're listed on cal.nashvl.org -->
+      <p>You can find lots of other local tech meetups in Nashville at <a href="http://cal.nashvl.org/">cal.nashvl.org's Nashville Tech Calendar</a>.  You can also find <a href="http://www.meetup.com/find/tech/?allMeetups=false&radius=25&userFreeform=Nashville%2C+TN&mcId=z37212&mcName=Nashville%2C+TN&sort=recommended&eventFilter=mysugg">lots of local tech meetups on Meetup.com</a>.
+      <!-- TODO: Call out specific meetups our members would be interested in. -->
     </section>
 
     <section id="social">
       <h2>Find Us/Social</h2>
-      <!-- TODO: Content -->
+      <ul class="list-inline" id="social-icons">
+        <li>
+          <a href="https://www.facebook.com/nashwomenprogrammers/">
+            <i class="fa fa-facebook-square"></i>
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/nashvillewomenprogrammers">
+            <i class="fa fa-github"></i>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="http://www.meetup.com/NashvilleWomenProgrammers/">
+            <i class="fa fa-calendar-o"></i>
+            Meetup.com
+          </a>
+        </li>
+      </ul>
     </section>
-
     <a href="#top" id="back-to-top-btn">
-      <i class="fa fa-arrow-up fa-3x"></i>
-      <div>Back to top</div>
+      <i class="fa fa-arrow-up fa-2x"></i>
+      Back to top
     </a>
-
   </section>
 
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="js/ideal-image-slider.min.js"></script>
+  <script src="js/iis-bullet-nav.js"></script>
   <script>
-    var slider = new IdealImageSlider.Slider('#slider');
+    var slider = new IdealImageSlider.Slider({
+      selector: '#slider',
+      height: 450
+    });
+    slider.addBulletNav();
     slider.start();
   </script>
   </body>

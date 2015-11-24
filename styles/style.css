@@ -5,6 +5,10 @@ body {
 	margin: 0;
 }
 
+a[role=tabpanel] {
+	background-size: contain;
+}
+
 nav.navbar {
 	margin-bottom: 0;
 	position: fixed;
@@ -17,8 +21,20 @@ header {
 	background-color: #b84d45;
 	background-image: url(../images/bg.png);
 	color: rgba(255,255,255,.8);
-	padding-bottom: 1em;
+	padding: 0 0.5em 1em 0.5em;
 	text-align: center;
+}
+
+
+@media (min-width: 600px) {
+	header p {
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
+header p + p {
+	margin-top: 0.5em;
 }
 
 section#content {
@@ -27,14 +43,45 @@ section#content {
 	padding: 2em;
 }
 
-section#content > section {
-	padding-bottom: 1em;
+h2 {
+	margin-top: 0;
+	padding-top: 52px;
+	border-bottom: 1px solid #b84d45;
 }
 
-section#content > section + section {
-	border-top: 1px solid #b84d45;
+h3 {
+	margin: 20px 0;
 }
 
 img {
 	max-width: 100%;
+}
+
+ul#sponsors li + li{
+	margin-top: 1em;
+}
+
+@media (min-width: 1000px) {
+	ul#sponsors li {
+		max-width: 33%;
+	}
+	ul#sponsors li + li{
+		margin-top: 0;
+	}
+}
+
+iframe {
+	max-width: 100% !important;
+}
+
+section.first-col {
+	padding-left: 0;
+}
+
+ul#social-icons {
+	font-size: 175%;
+}
+
+ul#social-icons .fa {
+	margin-right: 0.25em;
 }
