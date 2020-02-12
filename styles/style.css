@@ -1,87 +1,99 @@
 body {
-	/* background-image: url('../images/contemporary_china_2.png'); */
-	background-repeat: repeat;
-	font-family: 'Lato', sans-serif;
-	margin: 0;
+  /* background-image: url('../images/contemporary_china_2.png'); */
+  background-repeat: repeat;
+  font-family: "Lato", sans-serif;
+  margin: 0;
 }
 
-a[role=tabpanel] {
-	background-size: contain;
+a[role="tabpanel"] {
+  background-size: contain;
 }
 
 nav.navbar {
-	margin-bottom: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1000;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 header {
-	background-color: #b84d45;
-	background-image: url(../images/bg.png);
-	color: rgba(255,255,255,.8);
-	padding: 0 0.5em 1em 0.5em;
-	text-align: center;
+  background-color: #b84d45;
+  background-image: url(../images/bg.png);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 5em 0 2em;
+  text-align: center;
 }
 
-
 @media (min-width: 600px) {
-	header p {
-		width: 50%;
-		margin: 0 auto;
-	}
+  header p {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 header p + p {
-	margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 section#content {
-	max-width: 90%;
-	margin: 0 auto;
-	padding: 2em;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2em;
 }
 
 h2 {
-	margin-top: 0;
-	padding-top: 52px;
-	border-bottom: 1px solid #b84d45;
+  margin-top: 0;
+  padding-top: 52px;
+  border-bottom: 1px solid #b84d45;
 }
 
 h3 {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
-ul#sponsors li + li{
-	margin-top: 1em;
+ul#sponsors li + li {
+  margin-top: 1em;
 }
 
 @media (min-width: 1000px) {
-	ul#sponsors li {
-		max-width: 33%;
-	}
-	ul#sponsors li + li{
-		margin-top: 0;
-	}
+  ul#sponsors li {
+    max-width: 33%;
+  }
+  ul#sponsors li + li {
+    margin-top: 0;
+  }
 }
 
 iframe {
-	max-width: 100% !important;
+  max-width: 100% !important;
 }
 
 section.first-col {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 ul#social-icons {
-	font-size: 175%;
+  font-size: 175%;
 }
 
 ul#social-icons .fa {
-	margin-right: 0.25em;
+  margin-right: 0.25em;
+}
+
+.logo {
+  width: 100px;
+}
+
+.ideal-image-slider {
+  overflow: visible;
+}
+
+.iis-bullet-nav {
+  right: 40%;
+  bottom: -10%;
 }
